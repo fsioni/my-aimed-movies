@@ -1,7 +1,8 @@
 import Header from '@/components/Header/Header'
+import {Metadata} from "next";
 import './globals.css';
 
-export const metadata = {
+export const metadata: Metadata = {
     title: 'My Aimed Movies',
     description: 'The website where you can find your favorite movies and series',
 }
