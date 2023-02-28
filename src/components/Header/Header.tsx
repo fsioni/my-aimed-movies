@@ -27,7 +27,7 @@ export default function Header() {
                 <Logo/>
             </Navbar.Brand>
             <div className="flex md:order-2">
-                <Button href="https://github.com/fsioni/my-aimed-movies" className="bg-gray-800">
+                <Button href="https://github.com/fsioni/my-aimed-movies" target="_blank" className="bg-gray-800">
                     <BsGithub className="pr-2" size={24}/>
                     GitHub
                 </Button>
