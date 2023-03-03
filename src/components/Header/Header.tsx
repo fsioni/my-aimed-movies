@@ -1,5 +1,5 @@
 "use client"
-import Logo from "./Logo";
+import Logo from "../Logo";
 import {Navbar, Button, DarkThemeToggle} from "flowbite-react";
 import {usePathname} from "next/navigation";
 import {BsGithub} from "react-icons/bs";
