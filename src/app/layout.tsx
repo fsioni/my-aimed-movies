@@ -3,6 +3,7 @@ import {Metadata} from "next";
 import FlowbiteContext from "@/context/FlowbiteContext";
 import './globals.css';
 import {FC, PropsWithChildren} from "react";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
     title: 'My Aimed Movies',
@@ -17,6 +18,7 @@ const RootLayout: FC<PropsWithChildren> = function ({children}) {
             <div className="h-screen dark:bg-gray-900">
                 <Header/>
                 {children}
+                <Footer/>
             </div>
         </FlowbiteContext>
         </body>
