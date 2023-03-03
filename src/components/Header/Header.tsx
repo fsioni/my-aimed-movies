@@ -1,6 +1,6 @@
 "use client"
 import Logo from "./Logo";
-import {Navbar, Button} from "flowbite-react";
+import {Navbar, Button, DarkThemeToggle} from "flowbite-react";
 import {usePathname} from "next/navigation";
 import {BsGithub} from "react-icons/bs";
 
@@ -27,6 +27,7 @@ export default function Header() {
                 <Logo/>
             </Navbar.Brand>
             <div className="flex md:order-2 items-center">
+                <DarkThemeToggle/>
                 <Button href="https://github.com/fsioni/my-aimed-movies" className="bg-gray-800 mx-2">
                     <BsGithub size={24} className="mr-2"/>
                     GitHub
