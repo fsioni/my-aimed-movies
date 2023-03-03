@@ -21,7 +21,7 @@ export default function Header() {
     return (
         <Navbar
             fluid={true}
-            rounded={true}
+            rounded={false}
         >
             <Navbar.Brand href="/">
                 <Logo/>
