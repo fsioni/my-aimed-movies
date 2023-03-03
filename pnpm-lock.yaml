@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-import: ^2.27.5
   eslint-plugin-prettier: ^4.2.1
   flowbite: ^1.6.3
-  flowbite-react: ^0.3.8
+  flowbite-react: ^0.4.1
   husky: ^8.0.3
   mrm: ^4.1.13
   next: ^13.2.3
@@ -32,7 +32,7 @@ dependencies:
   '@types/react-dom': 18.0.11
   eslint-config-next: 13.2.3_ycpbpc6yetojsgtrx3mwntkhsu
   flowbite: 1.6.3
-  flowbite-react: 0.3.8_mgvwwo3oxlqkijpgkobyid5yci
+  flowbite-react: 0.4.1_mgvwwo3oxlqkijpgkobyid5yci
   husky: 8.0.3
   mrm: 4.1.13
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
@@ -121,10 +121,10 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@floating-ui/react/0.16.0_zula6vjvt3wdocc4mwcxqa6nzi:
+  /@floating-ui/react/0.20.1_zula6vjvt3wdocc4mwcxqa6nzi:
     resolution:
       {
-        integrity: sha512-h+69TJSAY2R/k5rw+az56RzzDFc/Tg7EHn/qEgwkIVz56Zg9LlaRMMUvxkcvd+iN3CNFDLtEnDlsXnpshjsRsQ==,
+        integrity: sha512-JHTHJ+/YsIxNFH8uJDFa5OyI6dSUZcle6wAFe0zRTjgWD+rkACfBBoJtx2itTtn7C4a7xAz4jgxdEQcMel194g==,
       }
     peerDependencies:
       react: '>=16.8.0'
@@ -2378,10 +2378,10 @@ packages:
         integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==,
       }
 
-  /flowbite-react/0.3.8_mgvwwo3oxlqkijpgkobyid5yci:
+  /flowbite-react/0.4.1_mgvwwo3oxlqkijpgkobyid5yci:
     resolution:
       {
-        integrity: sha512-IzbpvnUBDXsdf3HflbYv2W1lmTXITizMaX4G0SYoh/GxSp+25E97yNuwdBItwtCacUU1MJLwqIYXeicAxScRfA==,
+        integrity: sha512-o3X2YWcAcwu5O1NunlsAz2UNvTqmwmytkVdRVAC7jQeVOx+F/xUO1e3ZaG7hB5ULfx8d5AyhTeRzaPQPT539Wg==,
       }
     peerDependencies:
       flowbite: ^1
@@ -2389,7 +2389,7 @@ packages:
       react-dom: ^18
       tailwindcss: ^3
     dependencies:
-      '@floating-ui/react': 0.16.0_zula6vjvt3wdocc4mwcxqa6nzi
+      '@floating-ui/react': 0.20.1_zula6vjvt3wdocc4mwcxqa6nzi
       classnames: 2.3.2
       flowbite: 1.6.3
       react: 18.2.0

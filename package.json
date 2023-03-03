@@ -17,7 +17,7 @@
     "@types/react-dom": "18.0.11",
     "eslint-config-next": "^13.2.3",
     "flowbite": "^1.6.3",
-    "flowbite-react": "^0.3.8",
+    "flowbite-react": "^0.4.1",
     "husky": "^8.0.3",
     "mrm": "^4.1.13",
     "next": "^13.2.3",
