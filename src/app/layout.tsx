@@ -1,5 +1,6 @@
 import Header from '@/components/Header/Header'
 import {Metadata} from "next";
+import FlowbiteContext from "@/context/FlowbiteContext";
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -13,8 +14,10 @@ export default function RootLayout({children,}: {
     return (
         <html lang="en">
         <body>
-        <Header/>
-        {children}
+        <FlowbiteContext>
+            <Header/>
+            {children}
+        </FlowbiteContext>
         </body>
         </html>
     )
