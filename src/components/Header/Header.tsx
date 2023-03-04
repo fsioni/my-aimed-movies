@@ -1,10 +1,11 @@
 "use client"
-import Logo from "./Logo";
-import {Navbar, Button} from "flowbite-react";
+import Logo from "../Logo";
+import {Navbar, Button, DarkThemeToggle} from "flowbite-react";
 import {usePathname} from "next/navigation";
 import {BsGithub} from "react-icons/bs";
+import {FC} from "react";
 
-export default function Header() {
+const Header: FC<Record<string, never>> = function () {
     interface menuItem {
         title: string,
         urlTo: string,
@@ -21,13 +22,15 @@ export default function Header() {
     return (
         <Navbar
             fluid={true}
-            rounded={true}
+            rounded={false}
         >
             <Navbar.Brand href="/">
                 <Logo/>
             </Navbar.Brand>
             <div className="flex md:order-2 items-center">
-                <Button href="https://github.com/fsioni/my-aimed-movies" className="bg-gray-800 mx-2">
+                <DarkThemeToggle/>
+                <Button href="https://github.com/fsioni/my-aimed-movies"
+                        className="bg-gray-800 mx-2">
                     <BsGithub size={24} className="mr-2"/>
                     GitHub
                 </Button>
@@ -42,3 +45,5 @@ export default function Header() {
         </Navbar>
     )
 }
+
+export default Header;

@@ -1,21 +1,31 @@
 import Header from '@/components/Header/Header'
 import {Metadata} from "next";
+import FlowbiteContext from "@/context/FlowbiteContext";
 import './globals.css';
+import {FC, PropsWithChildren} from "react";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
     title: 'My Aimed Movies',
     description: 'The website where you can find your favorite movies and series',
 }
 
-export default function RootLayout({children,}: {
-    children: React.ReactNode
-}) {
+const RootLayout: FC<PropsWithChildren> = function ({children}) {
     return (
         <html lang="en">
         <body>
-        <Header/>
-        {children}
+        <FlowbiteContext>
+            <div className="h-screen dark:bg-gray-900">
+                <Header/>
+                <div className="mx-2">
+                    {children}
+                </div>
+                <Footer/>
+            </div>
+        </FlowbiteContext>
         </body>
         </html>
     )
 }
+
+export default RootLayout;
