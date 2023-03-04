@@ -4,7 +4,7 @@ import Logo from "@/components/Logo";
 
 const Footer = function () {
     return (
-        <FrFooter className="absolute bottom-0 p-3">
+        <FrFooter className="absolute bottom-0 p-3 rounded-none">
             <div className="w-full text-center">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <FrFooter.Brand href="/" src="">
