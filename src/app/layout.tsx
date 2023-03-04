@@ -17,7 +17,9 @@ const RootLayout: FC<PropsWithChildren> = function ({children}) {
         <FlowbiteContext>
             <div className="h-screen dark:bg-gray-900">
                 <Header/>
-                {children}
+                <div className="mx-2">
+                    {children}
+                </div>
                 <Footer/>
             </div>
         </FlowbiteContext>
