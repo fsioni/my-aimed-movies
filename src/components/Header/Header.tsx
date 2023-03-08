@@ -38,7 +38,7 @@ export default function Header() {
         <Logo />
       </Navbar.Brand>
       <div className="flex md:order-2 items-center">
-        <DarkThemeToggle />
+        {/*<DarkThemeToggle /> deprecated : waiting for Flowbite-react to find a solution*/}
         <Button
           href="https://github.com/fsioni/my-aimed-movies"
           className="bg-gray-800 mx-2">
